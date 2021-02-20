@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* possibly do a max width */
+/* have an image on left part of header with a slanted, drop shadow across it */
+.main-header {
+    background-color:#808b74;
+    padding-top: 50px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 8px;
+}
+
+.navbar ul {
+    margin-right: 20px;
+}
+
+/* add slight enlargement when mouse hover */
+.navbar li {
+    list-style-type: none;
+    display: inline;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+    margin: 10px;
+}
