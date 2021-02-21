@@ -32,3 +32,33 @@
     border-bottom: 1px solid black;
     margin: 10px;
 }
+
+/* add image for the background here instead of the background color */
+.subtitle-container {
+    height: 125px;
+    padding-top: 5px;
+    background-color: #7F748B;
+}
+
+.subtitle-card {
+    width: 200px;
+    /* adding drop shadows */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 2px 16px;
+    margin: auto;
+    margin-top: 20px;
+    /* change colors to fit soon to be inserted image */
+    background-color: lightsteelblue;
+    border-radius: 5px;
+}
+
+.subtitle-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* find better color */
+.top-page-border {
+    height: 5px;
+    background-color: lightsteelblue;
+}
