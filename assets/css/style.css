@@ -114,13 +114,37 @@ body {
 .projects-content {
   margin-top: 25px;
 }
-
+/* change border color and try to fit around image */
 .projects-one {
-    background-image: url(http://placekitten.com/400/400);
+    /* background-image: url(http://placekitten.com/400/400);
     height: 400px;
     width: 700px;
-    background-size: cover;
+    background-size: cover; */
+    position: relative;
+    border: 7px solid lightskyblue;
+    border-radius: 20px;
+    transition: 0.3s;
 }
+
+/* change text block background color */
+.projects-one-text-block {
+    position: absolute;
+    bottom: 20px;
+    background-color: black;
+    color: white;
+}
+
+.projects-one img {
+    border-radius: 20px;
+}
+
+.projects-one:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.9);
+  }
+/* .projects-one:hover {
+    box-shadow:0 0 5px 5px #DDDDDD;
+
+} */
 
 .contact {
   display: flex;
@@ -139,10 +163,24 @@ body {
   margin-top: 25px;
 }
 
+footer {
+    /* display: flex;
+    flex-direction: row; */
+    text-align: center;
+    margin-top: 25px;
+    background-color: #141E55;
+}
+
+footer p {
+    margin-left: 25px;
+    margin-right: 25px;
+    color:  #fcfcfd;
+}
+
 /* !!!!WORK ON MEDIA QUERY!!!! */
-/* @media screen and (max-width: 992px) {
-     {
-        display: flex;
-        flex-direction: column;
+
+@media screen and (max-width: 768px) {
+    .projects-one {
+        max-width: 400px;
     }
-} */
+}
