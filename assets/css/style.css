@@ -84,3 +84,37 @@
 .about-me-content {
     margin-top: 25px;
 }
+
+.projects {
+    display: flex;
+}
+
+.projects-sidebar {
+    margin-left: 15px;
+    margin-right: 22px;
+    margin-top: 22px;
+    padding-right: 15px;
+    padding-left: 30px;
+    border-right: 2px solid darkblue;
+}
+
+.projects-content {
+    margin-top: 25px;
+}
+
+.contact {
+    display: flex;
+}
+
+.contact-sidebar {
+    margin-left: 15px;
+    margin-right: 22px;
+    margin-top: 22px;
+    padding-right: 15px;
+    padding-left: 30px;
+    border-right: 2px solid darkblue;
+}
+
+.contact-content {
+    margin-top: 25px;
+}
