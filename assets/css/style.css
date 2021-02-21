@@ -15,7 +15,7 @@ body {
 /* have an image on left part of header with a slanted, drop shadow across it */
 .main-header {
   /* background-color: #808b74; */
-  background-color: #141E55;
+  background-color: #141e55;
   padding-top: 50px;
 }
 
@@ -37,7 +37,7 @@ body {
 
 .navbar a {
   text-decoration: none;
-  color: #fcfcfd;;
+  color: #fcfcfd;
   border-bottom: 1px solid #fcfcfd;
   margin: 10px;
 }
@@ -111,36 +111,39 @@ body {
   border-right: 2px solid #737f96;
 }
 
+/* ???what is the right:-300px for??? */
 .projects-content {
   margin-top: 25px;
+  right: -300px;
 }
 /* change border color and try to fit around image */
 .projects-one {
-    /* background-image: url(http://placekitten.com/400/400);
+  /* background-image: url(http://placekitten.com/400/400);
     height: 400px;
     width: 700px;
     background-size: cover; */
-    position: relative;
-    border: 7px solid lightskyblue;
-    border-radius: 20px;
-    transition: 0.3s;
-}
-
-/* change text block background color */
-.projects-one-text-block {
-    position: absolute;
-    bottom: 20px;
-    background-color: black;
-    color: white;
+  position: relative;
+  border: 7px solid lightskyblue;
+  border-radius: 20px;
+  transition: 0.3s;
+  right: -30%;
 }
 
 .projects-one img {
     border-radius: 20px;
+  }
+
+/* change text block background color */
+.projects-one-text-block {
+  position: absolute;
+  bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
 }
 
 .projects-one:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.9);
-  }
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.9);
+}
 /* .projects-one:hover {
     box-shadow:0 0 5px 5px #DDDDDD;
 
@@ -164,23 +167,23 @@ body {
 }
 
 footer {
-    /* display: flex;
+  /* display: flex;
     flex-direction: row; */
-    text-align: center;
-    margin-top: 25px;
-    background-color: #141E55;
+  text-align: center;
+  margin-top: 25px;
+  background-color: #141e55;
 }
 
 footer p {
-    margin-left: 25px;
-    margin-right: 25px;
-    color:  #fcfcfd;
+  margin-left: 25px;
+  margin-right: 25px;
+  color: #fcfcfd;
 }
 
 /* !!!!WORK ON MEDIA QUERY!!!! */
 
 @media screen and (max-width: 768px) {
-    .projects-one {
-        max-width: 400px;
-    }
+  .projects-one {
+    max-width: 400px;
+  }
 }
