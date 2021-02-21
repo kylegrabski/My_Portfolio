@@ -69,7 +69,10 @@ find best size for full screen desktop, tablet, and smart phone -->
 
     <!-- replace breaks with margin -->
 
-    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <br /><br /><br /><br /><br />
+    <br /><br />
+    <hr />
+    <br /><br /><br /><br /><br />
 
     <div class="projects" id="projects">
       <div class="projects-sidebar">
@@ -77,87 +80,92 @@ find best size for full screen desktop, tablet, and smart phone -->
         <h1>PROJECTS</h1>
       </div>
       <!-- multiple containers with project screenshots that link to the projects. enlarge and drop shadow on mouse hover.Should I make them cards instead? -->
+      <!-- Possibly remove text over image. Instead include text into image -->
       <div class="projects-content">
-            <div class="top-project">     
-                <div class="projects-one">
-                    <!-- github is placeholder -->
-                    <a href="http://github.com/" target="none">
-                        <img src="http://placekitten.com/700/400"  alt="placeholder">
-                    </a>
-                        <div class="projects-one-text-block">
-                            <h3>Project 1</h3>
-                            <p>Short Description</p>
-                        </div>
-                </div>
-            </div> 
-
-            <div class="projects-two">
-                <!-- github is placeholder -->
-                <a href="http://github.com/" target="none">
-                    <img src="http://placekitten.com/400/200"   alt="placeholder">
-                </a>
-                    <div class="projects-two-text-block">
-                        <h3>Project 2</h3>
-                        <p>Short Description</p>
-                    </div>
-            </div>
-            
-            <div class="projects-three">
-
-                <a href="http://github.com/" target="none">
-                    <img src="http://placekitten.com/400/200"   alt="placeholder">
-                </a>
-                    <div class="projects-three-text-block">
-                        <h3>Project 3</h3>
-                        <p>Short Description</p>
-                    </div>
-            </div>
-            <div class="projects-four">
-            
-                <a href="http://github.com/" target="none">
-                    <img src="http://placekitten.com/400/200" alt="placeholder">
-                </a>
-                    <div class="projects-four-text-block">
-                        <h3>Project 3</h3>
-                        <p>Short Description</p>
-                    </div>  
-            </div>
+        <div class="projects-one">
+          <!-- github is placeholder -->
+          <a href="http://github.com/" target="none">
+            <img src="http://placekitten.com/700/400" alt="placeholder" />
+          </a>
+          <div class="projects-one-text-block">
+            <h3>Project 1</h3>
+            <p>Short Description</p>
+          </div>
         </div>
+
+        <div class="bottom-projects">
+          <div class="projects-two">
+            <!-- github is placeholder -->
+            <a href="http://github.com/" target="none">
+              <img src="http://placekitten.com/400/200" alt="placeholder" />
+            </a>
+            <div class="projects-two-text-block">
+              <h3>Project 2</h3>
+              <p>Short Description</p>
+            </div>
+          </div>
+
+          <div class="projects-three">
+            <a href="http://github.com/" target="none">
+              <img src="http://placekitten.com/400/200" alt="placeholder" />
+            </a>
+            <div class="projects-three-text-block">
+              <h3>Project 3</h3>
+              <p>Short Description</p>
+            </div>
+          </div>
+          <div class="projects-four">
+            <a href="http://github.com/" target="none">
+              <img src="http://placekitten.com/400/200" alt="placeholder" />
+            </a>
+            <div class="projects-four-text-block">
+              <h3>Project 4</h3>
+              <p>Short Description</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-   
 
     <!-- replace breaks with margin? -->
 
     <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
     <div class="contact" id="contact">
-      <div class="contact-sidebar">
+        <div class="contact-sidebar">
         <!-- figure out how to have ME on the bottom right of ABOUT -->
-        <h1>CONTACT</h1>
-      </div>
+            <h1>CONTACT</h1>
+        </div>
 
-      <div class="contact-content">
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni
-          consequuntur in error sed magnam quia laboriosam. Mollitia alias
-          necessitatibus voluptatibus error soluta dolorem voluptate consequatur
-          incidunt sunt deleniti! Dolorem, consequuntur.
-        </p>
-        <br />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-          ipsum culpa molestias id explicabo optio distinctio reprehenderit
-          similique
-        </p>
-      </div>
+        <form class="contact-content">
+            <p id="contact-name">
+            Your Name
+          <br />
+            <input type="text" name="your-name" value size="50"/>
+            </p>
+            <p id="contact-email">
+          Your Email
+          <br />
+            <input type="email" name="your-email" value size="50" />
+            </p>
+            <input id="submit-button" type="submit" value="Send" style=" margin-top: 21px;
+            width: 100px;
+            height: 47px;
+            font-family: 'Shippori Mincho';
+            font-size: 18px;
+            background-color: #141e55;
+            color: white;
+            border-radius: 23px;">
+        </form>
     </div>
-    <br><br><br><br>
+
+    <br /><br /><br /><br />
 
     <!-- add icons of github, linkedin, and stack overflow with links -->
 
     <footer>
-        <p>kyle grabski</p>
-        <p>2021</p>
+      <p>kyle grabski</p>
+      <p>2021</p>
     </footer>
   </body>
 </html>
