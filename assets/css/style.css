@@ -8,6 +8,7 @@
 .main-header {
     background-color:#808b74;
     padding-top: 50px;
+    /* background-image: url("http://placekitten.com/1056/76"); */
 }
 
 .navbar {
@@ -52,13 +53,34 @@
     background-color: lightsteelblue;
     border-radius: 5px;
 }
+/* find out how to make text fade in */
+.subtitle-card h1 {
+    /* transition: 1.3s; */
+}
 
 .subtitle-card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.9);
 }
 
 /* find better color */
 .top-page-border {
     height: 5px;
     background-color: lightsteelblue;
+}
+
+.about-me {
+    display: flex;
+}
+
+.about-me-sidebar {
+    margin-left: 15px;
+    margin-right: 22px;
+    margin-top: 22px;
+    padding-right: 15px;
+    padding-left: 30px;
+    border-right: 2px solid darkblue;
+}
+
+.about-me-content {
+    margin-top: 25px;
 }
