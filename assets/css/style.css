@@ -8,15 +8,16 @@
 
 /* max-width doesn't work how I want it. If page goes beyond a certain size, i want there to be margin on BOTH sides of the screen, so the content is in the center of the page. */
 body {
-  background-color: #fcfcfd;
+  /* background-color: #fcfcfd; */
+  background-color: #f1f1f5;
   /* max-width: 1920px; */
 }
 
 /* possibly do a max width */
 /* have an image on left part of header with a slanted, drop shadow across it */
 .main-header {
-  /* background-color: #808b74; */
-  background-color: #141e55;
+  background-color: #7999cb;
+  /* background-color: #141e55; */
   padding-top: 28px;
   color: #fcfcfd;
 }
@@ -50,13 +51,13 @@ body {
   margin: 10px;
 }
 
-
-/* add image for the background here instead of the background color */
 .subtitle-container {
   height: 163px;
   padding-top: 5px;
   background-color: #7f748b;
-  background-image: url("../images/subtitle-container-background-image.jpg");
+  /* background-image: url("../images/subtitle-container-background-image.jpg"); */
+  /* background-image: url("../images/gradient-background.png"); */
+  background-image: url("../images/gradient-background-lightblue.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -70,12 +71,11 @@ body {
   margin: auto;
   margin-top: 20px;
   /* change colors to fit soon to be inserted image */
-  background-color: lightsteelblue;
+  background-color: #dcdce7;
   border-radius: 5px;
 }
 /* find out how to make text fade in */
 .subtitle-card h1 {
-  /* transition: 1.3s; */
   text-align: center;
 }
 
@@ -98,13 +98,14 @@ body {
     border-radius: 50%;
 }
 
-.about-me-sidebar {
-  margin-left: 67px;
+.about-me-sidebar, .projects-sidebar, .contact-sidebar {
+  margin-left: 15px;
   margin-right: 22px;
   margin-top: 22px;
   padding-right: 15px;
   padding-left: 30px;
-  border-right: 2px solid #737f96;
+  border-right: 7px solid #283dac;
+  color: #283dac;
 }
 
 .about-me-content {
@@ -116,19 +117,10 @@ body {
   display: flex;
 }
 
-.projects-sidebar {
-  margin-left: 15px;
-  margin-right: 22px;
-  margin-top: 22px;
-  padding-right: 15px;
-  padding-left: 30px;
-  border-right: 2px solid #737f96;
-}
-
 .projects-content {
   margin-top: 25px;
 }
-/* change border color and try to fit around image. Probably will have to put flex on it. Have image semi transparent then opaque on mouse hover  */
+/* change border color and try to fit around image. Have image semi transparent then opaque on mouse hover  */
 .projects-one {
   position: relative;
   border-radius: 20px;
@@ -137,7 +129,7 @@ body {
 }
 
 .projects-one img {
-  border: 7px solid lightskyblue;
+  border: 7px solid #283dac;
   border-radius: 20px;
   width: 700px;
   height: 400px;
@@ -171,7 +163,8 @@ body {
     position: relative;
     border-radius: 20px;
     transition: 0.3s;
-    border: 7px solid lightskyblue;
+    border: 7px solid #283dac;
+    opacity: 0.5;
 }
 
 .projects-two img {
@@ -193,13 +186,15 @@ body {
   
 .projects-two:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.9);
+    opacity: 1.0;
 }
 
 .projects-three {
     position: relative;
     border-radius: 20px;
     transition: 0.3s;
-    border: 7px solid lightskyblue;
+    border: 7px solid #283dac;
+    opacity: 0.5;
 }
 
 .projects-three img {
@@ -221,12 +216,14 @@ body {
   
 .projects-three:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.9);
+    opacity: 1.0;
 }
 .projects-four {
     position: relative;
     border-radius: 20px;
     transition: 0.3s;
-    border: 7px solid lightskyblue;
+    border: 7px solid #283dac;
+    opacity: 0.5;
 }
 
 .projects-four img {
@@ -248,19 +245,11 @@ body {
   
 .projects-four:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.9);
+    opacity: 1.0;
 }
 
 .contact {
   display: flex;
-}
-
-.contact-sidebar {
-  margin-left: 15px;
-  margin-right: 22px;
-  margin-top: 22px;
-  padding-right: 25px;
-  padding-left: 30px;
-  border-right: 2px solid #737f96;
 }
 
 .contact-content {
