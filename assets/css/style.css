@@ -91,7 +91,7 @@ body {
 
 .about-me {
   display: flex;
-  margin-top: 80px;
+  margin-top: 30px;
 }
 
 .about-me img {
@@ -109,8 +109,8 @@ body {
 }
 
 .about-me-content {
-  margin-top: 25px;
-  font-size: 22px;
+  margin-right: 55px;
+  font-size: 20px;
 }
 
 .projects {
@@ -129,8 +129,8 @@ body {
 }
 
 .projects-one img {
-  border: 7px solid #283dac;
-  border-radius: 20px;
+  /* border: 7px solid #283dac;
+  border-radius: 20px; */
   width: 700px;
   height: 400px;
 }
@@ -162,8 +162,8 @@ body {
 .projects-two {
     position: relative;
     border-radius: 20px;
+    /* border: 7px solid #283dac; */
     transition: 0.3s;
-    border: 7px solid #283dac;
     opacity: 0.5;
 }
 
@@ -193,7 +193,7 @@ body {
     position: relative;
     border-radius: 20px;
     transition: 0.3s;
-    border: 7px solid #283dac;
+    /* border: 7px solid #283dac; */
     opacity: 0.5;
 }
 
@@ -222,7 +222,7 @@ body {
     position: relative;
     border-radius: 20px;
     transition: 0.3s;
-    border: 7px solid #283dac;
+    /* border: 7px solid #283dac; */
     opacity: 0.5;
 }
 
@@ -299,3 +299,12 @@ footer a {
 
 /* !!!!WORK ON MEDIA QUERY!!!! */
 
+@media screen and (max-width: 768px) {
+    .projects-content img{
+        width: 50%;
+        height: auto;
+    }
+    .projects-content {
+       
+    }
+}
