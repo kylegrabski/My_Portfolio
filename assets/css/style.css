@@ -6,10 +6,6 @@
   font-family: "Shippori Mincho", serif;
 }
 
-hr {
-  width: 70%;
-  margin: auto;
-}
 /* max-width doesn't work how I want it. If page goes beyond a certain size, i want there to be margin on BOTH sides of the screen, so the content is in the center of the page. */
 body {
   background-color: #fcfcfd;
@@ -96,6 +92,10 @@ body {
 .about-me {
   display: flex;
   margin-top: 80px;
+}
+
+.about-me img {
+    border-radius: 50%;
 }
 
 .about-me-sidebar {
@@ -264,6 +264,11 @@ body {
 }
 
 .contact-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-form {
   margin-top: 25px;
   text-align: center;
 }
@@ -277,7 +282,11 @@ body {
     margin-top: 20px;
 }
 
-
+.contact a {
+    font-size: 25px;
+    margin-left: 80px;
+    margin-top: 95px; 
+}
 
 footer {
   /* display: flex;
@@ -285,12 +294,18 @@ footer {
   text-align: center;
   margin-top: 25px;
   background-color: #141e55;
+  padding: 10px 10px;
 }
 
 footer p {
   margin-left: 25px;
   margin-right: 25px;
   color: #fcfcfd;
+}
+
+footer a {
+    color: white;
+    position: relative;
 }
 
 /* !!!!WORK ON MEDIA QUERY!!!! */
