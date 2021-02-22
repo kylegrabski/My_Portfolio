@@ -6,32 +6,37 @@
   font-family: "Shippori Mincho", serif;
 }
 
-/* max-width doesn't work how I want it. If page goes beyond a certain size, i want there to be margin on BOTH sides of the screen, so the content is in the center of the page. */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
   /* background-color: #fcfcfd; */
   background-color: #f1f1f5;
-  /* max-width: 1920px; */
 }
 
-/* possibly do a max width */
+/* have width 100% */
 /* have an image on left part of header with a slanted, drop shadow across it */
 .main-header {
   background-color: #7999cb;
   /* background-color: #141e55; */
   padding-top: 28px;
   color: #fcfcfd;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .main-header h1 {
     position: relative;
     left: 44px;
-    bottom: -9px;
+    bottom: 0px;
 }
 
 .navbar {
-  display: flex;
-  justify-content: flex-end;
-  padding-bottom: 14px;
+  /* display: flex;
+  justify-content: flex-end; */
+  /* padding-bottom: 10px; */
 }
 
 .navbar ul {
