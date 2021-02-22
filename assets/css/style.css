@@ -21,7 +21,14 @@ body {
 .main-header {
   /* background-color: #808b74; */
   background-color: #141e55;
-  padding-top: 50px;
+  padding-top: 28px;
+  color: #fcfcfd;
+}
+
+.main-header h1 {
+    position: relative;
+    left: 44px;
+    bottom: -9px;
 }
 
 .navbar {
@@ -47,12 +54,13 @@ body {
   margin: 10px;
 }
 
+
 /* add image for the background here instead of the background color */
 .subtitle-container {
-  height: 125px;
+  height: 163px;
   padding-top: 5px;
   background-color: #7f748b;
-  background-image: url("http://placekitten.com/600/300");
+  background-image: url("../images/subtitle-container-background-image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -120,16 +128,19 @@ body {
 .projects-content {
   margin-top: 25px;
 }
-/* change border color and try to fit around image. Probably will have to put flex on it.  */
+/* change border color and try to fit around image. Probably will have to put flex on it. Have image semi transparent then opaque on mouse hover  */
 .projects-one {
   position: relative;
   border-radius: 20px;
   transition: 0.3s;
+  width: fit-content;
 }
 
 .projects-one img {
   border: 7px solid lightskyblue;
   border-radius: 20px;
+  width: 700px;
+  height: 400px;
 }
 
 /* Make text cards transparent until mouse over image container */
@@ -165,6 +176,8 @@ body {
 
 .projects-two img {
     border-radius: 20px;
+    width: 400px;
+    height: 200px;
 }
   
 .projects-two-text-block {
@@ -191,6 +204,8 @@ body {
 
 .projects-three img {
     border-radius: 20px;
+    width: 400px;
+    height: 200px;
 }
   
 .projects-three-text-block {
@@ -216,6 +231,8 @@ body {
 
 .projects-four img {
     border-radius: 20px;
+    width: 400px;
+    height: 200px;
 }
   
 .projects-four-text-block {
@@ -278,15 +295,3 @@ footer p {
 
 /* !!!!WORK ON MEDIA QUERY!!!! */
 
-@media screen and (max-width: 768px) {
-  /* .projects-one { */
-  /* .top-project {
-    max-width: 400px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .bottom-projects {
-    flex-direction: column;
-  }
-} */

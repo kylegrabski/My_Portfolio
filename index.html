@@ -18,6 +18,7 @@ find best size for full screen desktop, tablet, and smart phone -->
 
   <body>
     <header class="main-header">
+      <h1>Kyle Grabski</h1>
       <!-- have bottom border appear on hover and slightly larger text -->
       <nav class="navbar">
         <ul>
@@ -37,7 +38,7 @@ find best size for full screen desktop, tablet, and smart phone -->
     <div class="subtitle-container">
       <div class="subtitle-card">
         <!-- create eye catching quote. 'where coding meets creative''adding my world to our world' 'creative coding' -->
-        <h1>Welcome to my site</h1>
+        <h1>Creative Coding</h1>
       </div>
     </div>
 
@@ -46,23 +47,29 @@ find best size for full screen desktop, tablet, and smart phone -->
 
     <div class="about-me" id="about-me">
       <div class="about-me-sidebar">
-        <!-- figure out how to have ME on the bottom right of ABOUT -->
+        <!-- Fix flex on sidebar border -->
         <h1>ABOUT ME</h1>
       </div>
       <!-- create card for profile img with drop shadow. Movement? Round Image -->
       <div class="about-me-content">
         <!-- add icons with specific detailed text below. Descriptions of who I am and what I do. ie: eyeball vector img with text 'spots the details' below. '<coder>' with computer vector img above.-->
+        <div class="welcome-text">
+          <img
+            src="http://placekitten.com/200/200"
+            alt="profile-pic-placeholder"
+          />
+
+          <h1>
+            Hi. I'm Kyle, thank you for taking a look at my site. Make sure to
+            take a peak at my projects!
+          </h1>
+        </div>
+        <br /><br />
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni
-          consequuntur in error sed magnam quia laboriosam. Mollitia alias
-          necessitatibus voluptatibus error soluta dolorem voluptate consequatur
-          incidunt sunt deleniti! Dolorem, consequuntur.
-        </p>
-        <br />
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-          ipsum culpa molestias id explicabo optio distinctio reprehenderit
-          similique
+          Creativity is a centerpoint of my life. That is why web developing
+          became a natural calling for me. Continuing to have a deeper
+          understanding in code in order to improve peoples lives around me is
+          my goal!
         </p>
       </div>
     </div>
@@ -70,7 +77,7 @@ find best size for full screen desktop, tablet, and smart phone -->
     <!-- replace breaks with margin -->
 
     <br /><br /><br /><br /><br />
-    <br /><br />
+    <br />
     <hr />
     <br /><br /><br /><br /><br />
 
@@ -85,7 +92,7 @@ find best size for full screen desktop, tablet, and smart phone -->
         <div class="projects-one">
           <!-- github is placeholder -->
           <a href="http://github.com/" target="none">
-            <img src="http://placekitten.com/700/400" alt="placeholder" />
+            <img src="./assets/images/project-one.jpg" alt="placeholder" />
           </a>
           <div class="projects-one-text-block">
             <h3>Project 1</h3>
@@ -97,7 +104,7 @@ find best size for full screen desktop, tablet, and smart phone -->
           <div class="projects-two">
             <!-- github is placeholder -->
             <a href="http://github.com/" target="none">
-              <img src="http://placekitten.com/400/200" alt="placeholder" />
+              <img src="./assets/images/project-two.jpg" alt="placeholder" />
             </a>
             <div class="projects-two-text-block">
               <h3>Project 2</h3>
@@ -107,7 +114,7 @@ find best size for full screen desktop, tablet, and smart phone -->
 
           <div class="projects-three">
             <a href="http://github.com/" target="none">
-              <img src="http://placekitten.com/400/200" alt="placeholder" />
+              <img src="./assets/images/project-three.jpg" alt="placeholder" />
             </a>
             <div class="projects-three-text-block">
               <h3>Project 3</h3>
@@ -116,7 +123,7 @@ find best size for full screen desktop, tablet, and smart phone -->
           </div>
           <div class="projects-four">
             <a href="http://github.com/" target="none">
-              <img src="http://placekitten.com/400/200" alt="placeholder" />
+              <img src="./assets/images/project-four.jpg" alt="placeholder" />
             </a>
             <div class="projects-four-text-block">
               <h3>Project 4</h3>
@@ -132,31 +139,38 @@ find best size for full screen desktop, tablet, and smart phone -->
     <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
     <div class="contact" id="contact">
-        <div class="contact-sidebar">
+      <div class="contact-sidebar">
         <!-- figure out how to have ME on the bottom right of ABOUT -->
-            <h1>CONTACT</h1>
-        </div>
+        <h1>CONTACT</h1>
+      </div>
 
-        <form class="contact-content">
-            <p id="contact-name">
-            Your Name
+      <form class="contact-content">
+        <p id="contact-name">
+          Your Name
           <br />
-            <input type="text" name="your-name" value size="50"/>
-            </p>
-            <p id="contact-email">
+          <input type="text" name="your-name" value size="50" />
+        </p>
+        <p id="contact-email">
           Your Email
           <br />
-            <input type="email" name="your-email" value size="50" />
-            </p>
-            <input id="submit-button" type="submit" value="Send" style=" margin-top: 21px;
+          <input type="email" name="your-email" value size="50" />
+        </p>
+        <input
+          id="submit-button"
+          type="submit"
+          value="Send"
+          style="
+            margin-top: 21px;
             width: 100px;
             height: 47px;
             font-family: 'Shippori Mincho';
             font-size: 18px;
             background-color: #141e55;
             color: white;
-            border-radius: 23px;">
-        </form>
+            border-radius: 23px;
+          "
+        />
+      </form>
     </div>
 
     <br /><br /><br /><br />
