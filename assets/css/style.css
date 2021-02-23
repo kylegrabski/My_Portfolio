@@ -5,19 +5,15 @@
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
   background-color: #f6f0fe;
-  /* background-color: #f1f1f5; */
 }
 
-/* have width 100% */
-/* have an image on left part of header with a slanted, drop shadow across it */
 .main-header {
   background-color: #7999cb;
-  /* background-color: #141e55; */
   padding-top: 28px;
   color: #fcfcfd;
   display: flex;
@@ -27,11 +23,11 @@ body {
 }
 
 .main-header h1 {
-    z-index: 3;
+  z-index: 3;
 }
 
 .navbar {
-    z-index: 3;
+  z-index: 3;
 }
 
 .navbar ul {
@@ -51,14 +47,14 @@ body {
   margin: 10px;
 }
 
-.navbar ul li:hover a{
-    color: black;
-    font-size: 130%;
+.navbar ul li:hover a {
+  color: black;
+  font-size: 130%;
 }
 
-.navbar ul li:active a{
-    color: #283DAC;
-    font-size: 90%;
+.navbar ul li:active a {
+  color: #283dac;
+  font-size: 90%;
 }
 
 .subtitle-container {
@@ -73,7 +69,7 @@ body {
 }
 
 .subtitle-card {
-    position: relative;
+  position: relative;
   width: 200px;
   transition: 0.3s;
   padding: 2px 16px;
@@ -84,6 +80,7 @@ body {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.9);
   z-index: 3;
 }
+
 /* find out how to make text fade in */
 .subtitle-card h1 {
   text-align: center;
@@ -94,7 +91,6 @@ body {
   /* box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.9); */
 }
 
-/* find better color */
 .top-page-border {
   height: 5px;
   background-color: lightsteelblue;
@@ -120,13 +116,15 @@ body {
 }
 
 .about-me img {
-    border-radius: 50%;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.9);
-    margin: 12px;
-    z-index: 4;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.9);
+  margin: 12px;
+  z-index: 4;
+  border-radius: 50%;
 }
 
-.about-me-sidebar, .projects-sidebar, .contact-sidebar {
+.about-me-sidebar,
+.projects-sidebar,
+.contact-sidebar {
   margin-left: 15px;
   margin-right: 22px;
   margin-top: 22px;
@@ -148,7 +146,7 @@ body {
 .projects-content {
   margin-top: 25px;
 }
-/* change border color and try to fit around image. Have image semi transparent then opaque on mouse hover  */
+
 .projects-one {
   position: relative;
   border-radius: 50px;
@@ -160,9 +158,6 @@ body {
   border-radius: 50px;
 }
 
-/* Make text cards transparent until mouse over image container */
-
-/* change text block background color */
 .projects-one-text-block {
   position: absolute;
   bottom: 20px;
@@ -179,92 +174,64 @@ body {
 }
 
 .bottom-projects {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 80px;
 }
 
-.projects-two {
-    position: relative;
-    border-radius: 20px;
-    /* border: 7px solid #283dac; */
-    transition: 0.3s;
-    opacity: 0.5;
-}
-
-.projects-two img {
-    border-radius: 30px;
-}
-  
-.projects-two-text-block {
-    position: absolute;
-    bottom: 20px;
-    left: 14px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border-radius: 13px;
-    padding: 4px;
-    text-align: center;
-}
-  
-.projects-two:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.9);
-    opacity: 1.0;
-}
-
-.projects-three {
-    position: relative;
-    border-radius: 20px;
-    transition: 0.3s;
-    /* border: 7px solid #283dac; */
-    opacity: 0.5;
-}
-
-.projects-three img {
-    border-radius: 30px;
-}
-  
-.projects-three-text-block {
-    position: absolute;
-    bottom: 20px;
-    left: 14px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border-radius: 13px;
-    padding: 4px;
-    text-align: center;
-}
-  
-.projects-three:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.9);
-    opacity: 1.0;
-}
+.projects-two,
+.projects-three,
 .projects-four {
-    position: relative;
-    border-radius: 20px;
-    transition: 0.3s;
-    /* border: 7px solid #283dac; */
-    opacity: 0.5;
+  position: relative;
+  border-radius: 20px;
+  transition: 0.3s;
+  opacity: 0.5;
 }
 
+.projects-two img,
+.projects-three img,
 .projects-four img {
-    border-radius: 30px;
+  border-radius: 30px;
 }
-  
-.projects-four-text-block {
-    position: absolute;
-    bottom: 20px;
-    left: 14px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border-radius: 13px;
-    padding: 4px;
-    text-align: center;
+
+.projects-two-text-block {
+  position: absolute;
+  bottom: 20px;
+  left: 14px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 13px;
+  padding: 4px;
+  text-align: center;
 }
-  
+
+.projects-two:hover,
+.projects-three:hover,
 .projects-four:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.9);
-    opacity: 1.0;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.9);
+  opacity: 1;
+}
+
+.projects-three-text-block {
+  position: absolute;
+  bottom: 20px;
+  left: 14px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 13px;
+  padding: 4px;
+  text-align: center;
+}
+
+.projects-four-text-block {
+  position: absolute;
+  bottom: 20px;
+  left: 14px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 13px;
+  padding: 4px;
+  text-align: center;
 }
 
 .contact {
@@ -272,9 +239,9 @@ body {
 }
 
 .contact-content {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .contact-form {
@@ -283,26 +250,24 @@ body {
 }
 
 #contact-name {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 #contact-email {
-    font-size: 20px;
-    margin-top: 20px;
+  font-size: 20px;
+  margin-top: 20px;
 }
 
 .contact a {
-    font-size: 25px;
-    margin: 95px 0 0 80px;
+  font-size: 25px;
+  margin: 95px 0 0 80px;
 }
 
 .contact-links {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 footer {
-  /* display: flex;
-    flex-direction: row; */
   text-align: center;
   margin-top: 25px;
   background-color: #141e55;
@@ -316,61 +281,54 @@ footer p {
 }
 
 footer a {
-    color: white;
-    position: relative;
+  color: white;
+  position: relative;
 }
 
 /* !!!!WORK ON MEDIA QUERY!!!! */
 
 @media screen and (max-width: 768px) {
+  .navbar {
+    text-align: center;
+  }
 
-    .navbar {
-        text-align: center;
-    }
+  .about-me,
+  .projects,
+  .contact {
+    flex-direction: column;
+    text-align: center;
+  }
 
-    .about-me, .projects, .contact {
-        flex-direction: column;
-        text-align: center;
-    }
+  .about-me-sidebar,
+  .projects-sidebar,
+  .contact-sidebar {
+    border-right: 0;
+    border-bottom: 4px solid #283dac;
+  }
 
-    .about-me-sidebar {
-        border-right: 0;
-        border-bottom: 4px solid #283dac;
-    }
+  .about-me-content {
+    margin-left: 40px;
+  }
 
-    .projects-sidebar {
-        border-right: 0;
-        border-bottom: 4px solid #283dac;
-    }
+  .projects img {
+    width: 100%;
+  }
 
-    .contact-sidebar {
-        border-right: 0;
-        border-bottom: 4px solid #283dac;
-    }
+  .bottom-projects {
+    width: 75%;
+  }
 
-    .about-me-content {
-        margin-left: 40px;
-    }
+  .contact-content {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
 
-    .projects img {
-        width: 100%;
-    }
+  .contact-links a {
+    margin: 10px;
+  }
 
-    .bottom-projects {
-        width: 75%;
-    }
-
-    .contact-content {
-        flex-wrap: nowrap;
-        flex-direction: column;
-    }
-
-    .contact-links a {
-        margin: 10px;
-    }
-
-    .contact-links {
-        display: flex;
-        flex-direction: column;
-    }
+  .contact-links {
+    display: flex;
+    flex-direction: column;
+  }
 }
