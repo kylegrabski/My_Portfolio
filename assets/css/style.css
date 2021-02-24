@@ -34,7 +34,6 @@ body {
   margin-right: 4px;
 }
 
-/* add slight enlargement when mouse hover */
 .navbar li {
   list-style-type: none;
   display: inline;
@@ -61,53 +60,15 @@ body {
   height: 224px;
   padding-top: 5px;
   background-color: #7f748b;
-  /* background-image: url("../images/subtitle-container-background-image.jpg"); */
-  /* background-image: url("../images/gradient-background.png"); */
   background-image: url("../images/gradient-background-lightblue.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-.subtitle-card {
-  position: relative;
-  width: 200px;
-  transition: 0.3s;
-  padding: 2px 16px;
-  margin: auto;
-  margin-top: 20px;
-  background-color: #dcdce7;
-  border-radius: 5px;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.9);
-  z-index: 3;
-}
-
-/* find out how to make text fade in */
-.subtitle-card h1 {
-  text-align: center;
-}
-
-/* add interesting effect */
-.subtitle-card:hover {
-  /* box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.9); */
 }
 
 .top-page-border {
   height: 5px;
   background-color: lightsteelblue;
 }
-
-/* .slant {
-    position: relative;
-    bottom: 10x;
-    height: 120px;
-    background-color: #F6F0FE;
-    width: 100%;
-    z-index: 0;
-    transform: skewY(-3deg);
-    -webkit-transform: skewY(-6deg);
-    -moz-transform: skewY(-6deg);
-    -moz-transform: skewY(-6deg);
-} */
 
 .about-me {
   display: flex;
@@ -284,8 +245,6 @@ footer a {
   color: white;
   position: relative;
 }
-
-/* !!!!WORK ON MEDIA QUERY!!!! */
 
 @media screen and (max-width: 768px) {
   .navbar {
